@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Portfolio Details - iPortfolio Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="../../assets/img/favicon.png" rel="icon">
+  <link href="../../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="../../assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="../../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="../../assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio - v3.7.0
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="../../assets/img/portfolio-dp.JPG" alt="" class="img-fluid rounded-circle" style="width: 50%;">
+        <!-- <img src="assets/img/portfolio-dp.JPG" alt="" class="rounded-circle" height="115" width="100"> -->
+        <h1 class="text-light"><a href="../../index.html">Sanjana Sahayaraj</a></h1>
+        <!-- <p class="text-light text-center">Contact:</a></p> -->
+        <div class="social-links mt-3 text-center">
+          <a href="https://www.linkedin.com/in/sanjana-sahayaraj/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a href="mailto:sanjanamerida@gmail.com" target="_blank" class="email"><i class="bx bx-envelope"></i></a>
+          <a href="https://github.com/SanjanaSahayaraj" target="_blank" class="github"><i class="bx bxl-github"></i></a>
+          <a href="https://twitter.com/Sanjana_1" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
+        </div>
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="../../index.html#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="../../index.html#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="../../index.html#recommendations" class="nav-link scrollto"><i class="bx bxl-linkedin"></i> <span>Recommendations</span></a></li> 
+          <li><a href="../../index.html#career" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Career</span></a></li>
+          <li><a href="../../index.html#research" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Research</span></a></li>
+          <li><a href="../../index.html#projects" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Projects</span></a></li>
+          <li><a href="../../index.html#skills" class="nav-link scrollto"><i class="bx bx-plus"></i> <span>Skills</span></a></li>
+          <li><a href="../../index.html#outreach" class="nav-link scrollto"><i class="bx bx-globe"></i> <span>Outreach</span></a></li>
+          <li><a href="../../index.html#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Exploring efficient representation of medical text to build a question answering system</h2>
+          <ol>
+            <li><a href="../../index.html">Home</a></li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container">
+            <div class="portfolio-description">
+              <h2>Project Overview</h2>
+              <p>
+                <ul>
+                  <li>This project was purely an experimental direction taken as part of an ongoing project between the lab and a local hospital</li> 
+                  <li>There were several other ML models we had built on their data as well as open (after HIPAA training) data sources such as protein clustering, prediction of length of stay of a patient in the hospital based on predictor variables and so on</li>
+                  <li>Finally after exploring all possible sources and features, there were discharge summaries lying untouched and unexplored</li>
+                  <li>At that point, no one else in the lab had much knowledge of NLP techniques, nor had the bandwidth to explore this path</li>
+                  <li>So I took it upon myself to explore this path and discovered that representing text into vectors is a whole research topic by itself, before even training models on that representation</li>
+                  <li>So I explored a hybrid embedding technique combining character level and word level representations, to capture both context and not be harsh on the mispellings and typos made in the discharge summaries</li>
+                  <li>The dataset consisted of delimiter separated and padded sentences from the discharge summary, each multi-labelled with the medical entities present in it - such as an adverse event, a drug, a medical procedure etc.</li>
+                  <li>The entity labeling was done using CTakes - a rule based system. The idea of using this silver standard data was to prove that with the right representation of language, the NLP model can learn to go beyond rules to recognize new way to identify entities</li>
+                  <li>With this embedding technique and a multi-label classification problem setup, a biLSTM was trained to label each sentence with entities identified in it. Later when a question is asked on: <i>"What drugs has this patient taken?"</i>, all the sentences labelled with drug entity would be returned</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Details Section -->
+    <section id="skills" class="services">
+	<div class="container">
+  
+	  <div class="section-title">
+	    <h2>Skills</h2>
+	  </div>
+  
+	  <div class="row">
+	    <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+	      <div class="icon"><i class="bi bi-lightbulb-fill"></i></div>
+	      <h4 class="title">Treading into the world of NLP</h4>
+	      <p class="description">This was a purely explorative step, which I went in without much expectations, but it got me so interested and excited that I ended up presenting my work at a conference, which later converted to a research internship and then a full time role. My first dance with NLP would later evolve into a career</p>
+	    </div>
+	    <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+	      <div class="icon"><i class="bi bi-calculator"></i></div>
+	      <h4 class="title">Importance of the right representation</h4>
+	      <p class="description">I discovered that there is an entire research stream, conferences and requirement for representation learning in itself. Investing in this research and learning early on allowed me to build custom models and embedding algorithms that can adopt to new domains and business problems, that I would go on to publish and patent</p>
+	    </div>
+	    <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+		<div class="icon"><i class="bi bi-building"></i></div>
+		<h4 class="title">Discovering entire markets and industried powered by NLP and ML solutions</h4>
+		<p class="description">At the time I did this project, NLP was still in a very nascent stage. But getting involved in this stage and talking about my work connected me to the booming tech and research community using these techniques to solve critical problems using the highly expressive and rich human language</p>
+	      </div>
+	</div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="../../assets/vendor/purecounter/purecounter.js"></script>
+  <script src="../../assets/vendor/aos/aos.js"></script>
+  <script src="../../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../../assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="../../assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="../../assets/vendor/typed.js/typed.min.js"></script>
+  <script src="../../assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="../../assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="../../assets/js/main.js"></script>
+
+</body>
+
+</html>
